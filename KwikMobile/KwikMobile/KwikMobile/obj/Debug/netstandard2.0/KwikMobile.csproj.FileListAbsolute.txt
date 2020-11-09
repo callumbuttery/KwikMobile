@@ -1,0 +1,22 @@
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\KwikMobile.deps.json
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\KwikMobile.dll
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.csprojAssemblyReference.cache
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.AssemblyInfoInputs.cache
+E:\Uni\Year 4\Software Architecture\Assessment 1\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.AssemblyInfo.cs
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\KwikMobile.deps.json
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\KwikMobile.dll
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\ref\KwikMobile.dll
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\bin\Debug\netstandard2.0\KwikMobile.pdb
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.csprojAssemblyReference.cache
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.AssemblyInfoInputs.cache
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.AssemblyInfo.cs
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.csproj.CoreCompileInputs.cache
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.dll
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\ref\KwikMobile.dll
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\KwikMobile.pdb
+C:\Users\callu\Desktop\KwikMobile\KwikMobile\KwikMobile\KwikMobile\obj\Debug\netstandard2.0\Job.xaml.g.cs

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KwikMobile.Job">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Select your job"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                       FontSize="25"/>
+
+                <Button Text="Refresh"
+                        VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                       FontSize="25"
+                        Clicked="refresh"/>
+
+                <ListView x:Name="JobsList" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame HasShadow="True" BorderColor="Black" CornerRadius="5" Margin="10,10,10,10">
+                                    <StackLayout>
+                                        <Label Text="Ambulance ID" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding ambulance}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+                                        <Label Text="Case Number" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding caseNumber}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+                                        <Label Text="Patient Issue" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding condition}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+                                        <Label Text="Take to  the following" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding hosptial}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+                                        <Label Text="Patient NHS ID" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding nhsID}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+                                        <Label Text="Patient Address" FontSize="20" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding patientAddress}" FontSize="20" HorizontalTextAlignment="Center" Margin="0,0,0,20"/>
+
+                                        <Label Text="Enter Medic Name" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,10,0,0"/>
+                                        <Entry HorizontalOptions="Center" FontAttributes="Italic" FontSize="15" Margin="0,0,0,10" x:Uid="{Binding caseNumber}" WidthRequest="250" TextChanged="MedicChanged"/>
+                                        <Label Text="Enter Help provided" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,10,0,0"/>
+                                        <Entry HorizontalOptions="Center" FontAttributes="Italic" FontSize="15" Margin="0,0,0,10" x:Uid="{Binding caseNumber}" WidthRequest="250" TextChanged="HelpChanged"/>
+                                        <Label Text="Enter Arrival time" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,10,0,0"/>
+                                        <Entry HorizontalOptions="Center" FontAttributes="Italic" FontSize="15" Margin="0,0,0,10" x:Uid="{Binding caseNumber}" Keyboard="Numeric" WidthRequest="250" TextChanged="ArrivalChange"/>
+                                        <Label Text="Enter Finish Time" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,10,0,0"/>
+                                        <Entry HorizontalOptions="Center" FontAttributes="Italic" FontSize="15" Margin="0,0,0,10" x:Uid="{Binding caseNumber}" Keyboard="Numeric" WidthRequest="250" TextChanged="FinishedChange"/>
+                                        <Button Clicked="Button_Clicked" HorizontalOptions="Center" Text="Submit" ClassId="{Binding caseNumber}" x:Name="{Binding caseNumber}"/>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KwikMobile.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="KwikMobile" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="For Ambulances" FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <Picker x:Name="AmbulanceChoice" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250" Margin="0,100,0,0" >
+            <Picker.Items>
+                <x:String>Ambulance 1</x:String>
+                <x:String>Ambulance 2</x:String>
+                <x:String>Ambulance 3</x:String>
+                <x:String>Ambulance 4</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Button Text="Login" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
