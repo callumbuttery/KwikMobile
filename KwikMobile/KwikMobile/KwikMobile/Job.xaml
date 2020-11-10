@@ -16,7 +16,7 @@
                        FontSize="25"
                         Clicked="refresh"/>
 
-                <ListView x:Name="JobsList" HasUnevenRows="True">
+                <ListView x:Name="JobsList" HasUnevenRows="True" ClassId="{Binding caseNumber}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

@@ -21,6 +21,7 @@ namespace KwikMobile
         public string timeOfArrival { get; set; }
         public string timeOfFinish { get; set; }
         public string helpGiven { get; set; }
+        public bool onWayToHospital { get; set; }
 
     }
 }

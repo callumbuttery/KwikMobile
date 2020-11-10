@@ -105,8 +105,10 @@ namespace KwikMobile
             //post new emergency to server
             var postAmbulance = await firebaseClient
                 .Child("Dispatches")
-                .PostAsync(new JobsList() { nhsID = globalNHSID, caseNumber = caseNo, patientAddress = globalAddress, ambulance = Ambulance, hosptial = hospital, condition = globalCondition, active = false, medicName = medic, helpGiven = helpGiven, timeOfArrival = timeArrived, timeOfFinish = timeFinished});
+                .PostAsync(new JobsList() { nhsID = globalNHSID, caseNumber = caseNo, patientAddress = globalAddress, ambulance = Ambulance, hosptial = hospital, condition = condition, active = false, medicName = medic, helpGiven = helpGiven, timeOfArrival = timeArrived, timeOfFinish = timeFinished, onWayToHospital = true });
 
+            await DisplayAlert("Success", "Case closed. Either take your patient to hospital or start another job", "Okay");
+            
         }
 
         private void MedicChanged(object sender, TextChangedEventArgs e)
